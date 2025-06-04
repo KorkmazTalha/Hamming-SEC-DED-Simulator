@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamming SEC-DED Simülatörü</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="ust-container">
+      <h1>Hamming SEC-DED Simülatörü</h1>
+
+      <label for="dataInput">Veri (8, 16 veya 32 bit):</label>
+      <input type="text" id="dataInput" maxlength="32" placeholder="Örn: 10101100">
+    </div>
+    
+    <div class="ortaContainer">
+      <div class="button-group">
+        <button onclick="encodeData()">Kodla</button>
+        <button onclick="introduceError()">Hata Ekle</button>
+        <button onclick="checkAndCorrect()">Kontrol Et</button>
+      </div>
+    </div>
+    
+    <div class="sonContainer">
+      <h3>Hamming Kodu:</h3>
+      <div id="hammingOutput"></div>
+
+      <h3>Sendrom ve Hata Durumu:</h3>
+      <div id="syndromeOutput"></div>
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
