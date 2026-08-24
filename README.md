@@ -34,15 +34,19 @@ Kullanıcı **8, 16 veya 32 bitlik** binary veri girerek veriyi Hamming SEC-DED 
 
 ```text
 10101100
+```
 
-📁 Proje Yapısı
+
+## 📁 Proje Yapısı
+```text
 Hamming-SEC-DED/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 
-🎯 Projenin Amacı
+## 🎯 Projenin Amacı
 
 Bu proje, Hamming SEC-DED hata kontrol yöntemini uygulamalı olarak öğrenmek ve tek bitlik hataların nasıl tespit edilip düzeltildiğini görsel olarak göstermek amacıyla geliştirilmiştir.
 
